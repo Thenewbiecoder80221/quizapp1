@@ -1,0 +1,42 @@
+/* app.css (sample to complement highscores.css) */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
